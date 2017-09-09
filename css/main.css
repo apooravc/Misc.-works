@@ -1,0 +1,56 @@
+.container{
+    border: 3px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container > h1{
+    border: 3px solid brown;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.stack{
+    /*border: 3px solid black;*/
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30%;
+}
+
+.element{
+    border: 3px solid yellow;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.hline{
+    display: block;
+    border-bottom: 3px solid black;
+    margin: 2% auto;
+    width: 60%;
+}
+
+.element > a:link{
+    color: orange;
+    text-decoration: none;
+}
+
+.element > a:visited{
+    color: orange;
+    text-decoration: none;
+}
+
+.element > a:hover{
+    color: orange;
+    text-decoration: none;
+}
+
+.element > a:active{
+    color: orange;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
