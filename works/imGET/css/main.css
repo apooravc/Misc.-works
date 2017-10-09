@@ -1,5 +1,10 @@
+body{
+    background-color: #0d0d0d;
+}
+
 .container{
-    border: 3px solid black;
+    background-color: white;
+    border: 5px solid orange;
     width: 700px;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
@@ -19,7 +24,6 @@
 }
 
 .search{
-    border: 3px solid brown;
     width: 60%;
     margin: 0 auto;
 }
@@ -29,7 +33,7 @@
 }
 
 #search-box{
-    background-image: url('../images/icon.JPG');
+    background-image: url('../images/icon.jpg');
     background-repeat: no-repeat;
     font-size: 20px;
     padding: 10px 10px 10px 50px;
@@ -40,7 +44,7 @@
 }
 
 .gallery{
-    border: 3px solid brown;
+    /*border: 3px solid brown;*/
     width: 68%;
     margin: 0 auto;
 }
