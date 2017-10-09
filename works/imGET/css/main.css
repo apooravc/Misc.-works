@@ -1,0 +1,74 @@
+.container{
+    border: 3px solid black;
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container > h1{
+    border: 3px solid brown;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.hline{
+    display: block;
+    border-bottom: 3px solid black;
+    width: 70%;
+    margin: 1% auto;
+}
+
+.search{
+    border: 3px solid brown;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.search > h1{
+    text-align: center;
+}
+
+#search-box{
+    background-image: url('../images/icon.JPG');
+    background-repeat: no-repeat;
+    font-size: 20px;
+    padding: 10px 10px 10px 50px;
+    border: 1px solid #ddd;
+    width: 60%;
+    margin: 10px 0 10px 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.gallery{
+    border: 3px solid brown;
+    width: 68%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul>li{
+    display: inline-block;
+    margin: 13px;
+    position: relative;
+}
+
+ul>li>img{
+    border: 3px solid black;
+}
+
+ul>li>p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-weight: bold;
+}
+
+
