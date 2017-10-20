@@ -1,0 +1,180 @@
+body#overr-boot{
+    background-color: #1a1a1a;
+}
+
+.my-container{
+    border: 7px solid black;
+    background-color: #bfbfbf;
+    margin: 30px auto;
+}
+
+.header{
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #FFDC00;
+}
+
+@media (max-width:480px) {
+  .my-container{
+    width: 305px;
+  }
+
+  .img-house{
+    margin-left: 45px;
+  }
+
+  .btn{
+    margin-left: 68px;
+  }
+
+  blockquote{
+    height: 320px;
+  }
+}
+
+@media (min-width:480px) {
+  .my-container{
+    width: 440px;
+  }
+
+  .img-house{
+    margin-left: 115px;
+  }
+
+  .btn{
+    margin-left: 140px;
+  }
+
+  blockquote{
+    height: 210px;
+  }
+}
+
+@media (min-width:600px) {
+  .my-container{
+    font-size: 30px;
+    width: 550px;
+  }
+
+  .img-house{
+    margin-left: 175px;
+  }
+
+  .btn{
+    margin-left: 195px;
+  }
+
+  blockquote{
+    height: 170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-container{
+    font-size: 35px;
+    width: 600px;
+    height: 600px;
+  }
+
+  .img-house{
+    margin: 10px;
+  }
+
+  .btn{
+    margin-left: 120px;
+  }
+
+  blockquote{
+    height: 225px;
+  }
+}
+
+.main{
+    /*border: 3px solid black;*/
+    margin-top: 70px;
+}
+
+.img-house{
+    border: 3px solid black;
+}
+
+.quotegen{
+    /*border: 3px solid black;*/
+    margin: 20px 20px 15px 30px;
+}
+
+#overr-boot blockquote{
+    background-color: #faebbc;
+    margin-top: 20px;
+    position: relative;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.3;
+    color: black;
+
+    border-left: 5px solid #c76c0c;
+    border-right: 10px solid #c76c0c;
+    border-radius: 10px;
+}
+
+blockquote::before{
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    color: #c76c0c;
+
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+blockquote::after{
+  content: "";
+}
+
+blockquote> p{
+    margin: 4px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.btn{
+    background-color: #2ECC40;
+    padding: 6px 12px;
+    letter-spacing: .2em;
+    transition: all ease-in-out 200ms;
+}
+
+a.btn:link{
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+}
+
+a.btn:visited{
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+}
+
+a.btn:hover{
+    color: #2ECC40;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0px 15px 18px 0px rgba(0,0,0,0.4);
+}
+
+a.btn:active{
+    color: #2ECC40;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    transition: ease-in-out 50ms;
+}

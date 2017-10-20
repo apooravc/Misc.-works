@@ -25,4 +25,5 @@ $(document).ready(function main(){
     $(".hline").addClass("animated fadeInLeft");
     $(".search > h1").addClass("animated bounce");
     $(".gallery > ul > li").addClass("animated fadeIn");
+
 });
