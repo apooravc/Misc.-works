@@ -1,10 +1,16 @@
 $(document).ready(function(){
-    $(".element").hide();
-    $("#1").show().addClass("animated fadeInDownBig");
     setTimeout(function(){
-        $("#2").show().addClass("animated fadeInDownBig");
+        $("#second").show().addClass("animated fadeInDownBig");
     }, 1000);
     setTimeout(function(){
-        $("#3").show().addClass("animated fadeInDownBig");
+        $("#third").show().addClass("animated fadeInDownBig");
     }, 2000);
+
+    $(".element").hover(function (){
+        $(this).css("background-color", "brown");
+        $(this).find("a").css("color", "#FFFFFF");
+    }, function (){
+        $(this).css("background-color", "transparent");
+        $(this).find("a").css("color", "#FF851B");
+    });
 });

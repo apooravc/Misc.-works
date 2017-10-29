@@ -1,56 +1,68 @@
+body{
+    background-color: #FF851B;
+}
+
 .container{
     border: 3px solid black;
+    border-radius: 20px;
     width: 600px;
     height: 600px;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+    background-color: #faebbc;
+
 }
 
 .container > h1{
-    border: 3px solid brown;
     display: inline-block;
     margin-left: 2%;
+    font-family: 'Poiret One', serif;
+    font-weight: bold;
+    font-size: 48px;
 }
 
 .stack{
     /*border: 3px solid black;*/
-    font-family: 'Raleway', sans-serif;
-    margin-top: 30%;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 17px;
+    margin-top: 15%;
 }
 
 .element{
-    border: 3px solid yellow;
+    border: 3px solid brown;
     margin: 0 auto;
     width: 40%;
     text-align: center;
     margin-bottom: 1%;
 }
 
+#second, #third{
+    display: none;
+}
+
 .hline{
     display: block;
-    border-bottom: 3px solid black;
+    border-bottom: 5px solid black;
     margin: 2% auto;
     width: 60%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.6);
 }
 
 .element > a:link{
-    color: orange;
+    color: #FF851B;
     text-decoration: none;
 }
 
 .element > a:visited{
-    color: orange;
+    color: #FF851B;
     text-decoration: none;
 }
 
 .element > a:hover{
-    color: orange;
     text-decoration: none;
 }
 
 .element > a:active{
-    color: orange;
     text-decoration: none;
     position: relative;
-    top: 2px;
+    top: 3px;
 }

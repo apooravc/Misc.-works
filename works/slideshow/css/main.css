@@ -17,16 +17,20 @@ body{
 
 #prev{
     border: solid black 3px;
+    border-radius: 50%;
     position: absolute;
     left: 0;
     top: 50%;
+    cursor: pointer;
 }
 
 #next{
     border: solid black 3px;
+    border-radius: 50%;
     position: absolute;
     right: 0;
     top: 50%;
+    cursor: pointer;
 }
 
 #img-nav{
